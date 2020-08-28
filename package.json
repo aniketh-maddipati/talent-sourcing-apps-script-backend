@@ -1,0 +1,23 @@
+{
+  "name": "talent-sourcing-apps-script-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aniketh-maddipati/talent-sourcing-apps-script-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aniketh-maddipati/talent-sourcing-apps-script-backend/issues"
+  },
+  "homepage": "https://github.com/aniketh-maddipati/talent-sourcing-apps-script-backend#readme",
+  "dependencies": {
+    "clasp": "^1.0.0"
+  }
+}
