@@ -59,7 +59,7 @@ function JSONify(values, headings) {
       if (candidateRow) {
         //returns a JSON of the row with the candidate information by finding the range that row
         var values = sheet.getRange(candidateRow, 1, 1, 17).getValues()[0]
-        return JSONify([values], headings)
+        return JSONify(values, headings)
       } else {
         //if candidate doesnt exist in table then tell the user that the candidate doesnt exist
         throw {message: 'CANDIDATE DOES NOT EXIST'}
